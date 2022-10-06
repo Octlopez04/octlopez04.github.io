@@ -36,6 +36,12 @@ body, html{
     float:left;
     background-color: lightgray;
 }
+#s3{
+    width: 10%;
+    height:10%;
+    background-color: deeppink;
+
+}
 #n1{
     width:20%;
     height:100%;
