@@ -47,7 +47,11 @@ header{
 main{
     height: 160%;
     width: 100%;
-    background-color: rgb(184, 140, 111);
+    background-image: url(fondo.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
     float: left;
     
 }
