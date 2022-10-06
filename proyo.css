@@ -55,21 +55,17 @@ main{
 #sc1{
     width:50%;
     height:50%;
-     background-color: rgb(89, 0, 255);
      float: left;
 }
 #sc2{width:50%;
     height:50%;
-    background-color: darkslateblue;
     float: left;
 }
 #sc3{width:100%;
     height:50%;
-    background-color: gold;
     float: left;
 }
 footer{width:100%;
     height:10%;
-    background-color: thistle;
     text-align: center;
 }
