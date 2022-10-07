@@ -112,6 +112,79 @@ footer{
     background-attachment:scroll;
 }
 
+#lagos{
+    background-image: url(lagos.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+
+#tequila{
+    background-image: url(tequila.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+
+#mazamitla{
+    background-image: url(mazamitla.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+
+#sebastian{
+    background-image: url(sebastian.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+
+
+
+#tapalpa{
+    background-image: url(tapalpa.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-attachment:scroll;
+}
+
+#allende{
+    background-image: url(allende.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+
+#ajijic{
+    background-image: url(ajijic.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+#mascota{
+    background-image: url(mascota.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-attachment:scroll;
+}
+
+#tlaquepaque{
+    background-image: url(tlaquepaque.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:87%;
+    background-attachment:scroll;
+}
+
 #arandas{
     background-image: url(arandas.png);
     background-position:center;
