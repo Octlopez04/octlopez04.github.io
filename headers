@@ -1,0 +1,34 @@
+*{margin: 0px;padding: 0px;}
+header{width: 100%;height: 10%;background-color: blue;}
+#logo{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+#titulo{
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+#usuario{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+#logo1{
+    width: 38%;
+    background-color: rgb(19, 18, 75);
+    border: 1px solid orange;
+}
+#titulo1{
+    color: rgb(245, 118, 28);
+    font-family: roman;
+    font-size: 90px;
+    background-color:rgb(19, 18, 75) ;
+    border-radius: 50px ;
+    border: 2px solid orange;
+}
+
+#usuario1,#menu1{
+    width: 30%;
+}
