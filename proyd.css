@@ -11,7 +11,7 @@ color:antiquewhite;
 
 }
 body{
-    background-image: url(imágenes/fondo.jpg);
+    background-image: url(imagenes/fondo.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -113,7 +113,7 @@ footer{
 }
 
 #lagos{
-    background-image: url(imágenes/lagos.png);
+    background-image: url(imagenes/lagos.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -121,7 +121,7 @@ footer{
 }
 
 #tequila{
-    background-image: url(imágenes/tequila.png);
+    background-image: url(imagenes/tequila.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -129,7 +129,7 @@ footer{
 }
 
 #mazamitla{
-    background-image: url(imágenes/mazamitla.png);
+    background-image: url(imagenes/mazamitla.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -137,7 +137,7 @@ footer{
 }
 
 #sebastian{
-    background-image: url(imágenes/sebastian.png);
+    background-image: url(imagenes/sebastian.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
