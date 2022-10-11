@@ -11,7 +11,7 @@ color:antiquewhite;
 
 }
 body{
-    background-image: url(fondo.jpg);
+    background-image: url(imágenes/fondo.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -113,7 +113,7 @@ footer{
 }
 
 #lagos{
-    background-image: url(lagos.png);
+    background-image: url(imágenes/lagos.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -121,7 +121,7 @@ footer{
 }
 
 #tequila{
-    background-image: url(tequila.png);
+    background-image: url(imágenes/tequila.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -129,7 +129,7 @@ footer{
 }
 
 #mazamitla{
-    background-image: url(mazamitla.png);
+    background-image: url(imágenes/mazamitla.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -137,7 +137,7 @@ footer{
 }
 
 #sebastian{
-    background-image: url(sebastian.png);
+    background-image: url(imágenes/sebastian.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -147,7 +147,7 @@ footer{
 
 
 #tapalpa{
-    background-image: url(tapalpa.png);
+    background-image: url(imágenes/tapalpa.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:90%;
@@ -155,7 +155,7 @@ footer{
 }
 
 #allende{
-    background-image: url(allende.png);
+    background-image: url(imágenes/allende.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -163,14 +163,14 @@ footer{
 }
 
 #ajijic{
-    background-image: url(ajijic.png);
+    background-image: url(imágenes/ajijic.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
     background-attachment:scroll;
 }
 #mascota{
-    background-image: url(mascota.png);
+    background-image: url(imágenes/mascota.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -178,7 +178,7 @@ footer{
 }
 
 #tlaquepaque{
-    background-image: url(tlaquepaque.png);
+    background-image: url(imágenes/tlaquepaque.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:87%;
@@ -186,7 +186,7 @@ footer{
 }
 
 #arandas{
-    background-image: url(arandas.png);
+    background-image: url(imágenes/arandas.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
