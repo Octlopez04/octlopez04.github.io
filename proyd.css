@@ -6,8 +6,11 @@ height: 180%;
 width: 100%;
 font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 text-align: center;
 color:antiquewhite;
+    -webkit-text-stroke: 2px black;
+  color: transparent; 
 
 }
 body{
