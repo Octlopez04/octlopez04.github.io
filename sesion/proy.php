@@ -1,5 +1,5 @@
 <?php
-require_once('con.php');
+require_once('bombones.php');
 
 $Uss=$_POST['Uss'];
 
