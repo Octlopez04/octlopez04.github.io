@@ -1,5 +1,5 @@
 <?php
-require_once('conX.php');
+require_once('con.php');
 
 $Uss=$_POST['Uss'];
 
