@@ -4,9 +4,10 @@ require_once('bombones.php');
 $Uss=$_POST['Uss'];
 
 $Name=$_POST['Na'];
-$Pass=password_hash($Pass=$_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
+$Pass=password_hash($_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
 
-$Pass2=password_hash($Pass2=$_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
+$Pass2=password_hash($_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
+//$Pass2=password_hash( WATAFAK( $Pass2) quien escribio esto????=$_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
 
 echo($Pass);
 
