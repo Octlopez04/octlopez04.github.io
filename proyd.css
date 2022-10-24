@@ -99,6 +99,9 @@ footer{
  border: 2px solid orange;
     float: left;
 }
+#fotlist{
+    text-align: right;
+}
 
 #adv{
    width: 20%;
