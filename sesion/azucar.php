@@ -1,23 +1,24 @@
 <?php
-     require_once('bombones.php');
+//inicio de secion
+error_reporting(0);
+session_start();
+     require_once('conx.php');
+$Uss=$_POST['Uss'];
+$Pass=$_POST['pass'];
 
-     $User=$_POST['User'];
-     $Pass=$_POST['contra'];
-     //Recabacion y envio de los datos
-     $sql="SELECT Usuario,Contraseña FROM Usuarios WHERE usuario=$uss";
-     $envio=mysqli_query($con,$sql);
+//pedir
+$sql="SELECT Uss, Pass FROM prvas Where Uss='$Uss'";
 
-     //recupera la contraseña para verificarla
-     $resultado = mysqli_fetch_array($envio);
-     $hash=$resultado['Contraseña'];
+$query=mysqli_query($con, $sql);
 
-     //verificacion de contraseña
-     if (password_verify($Pass,$hash)) {
-        echo('Bienvenido: '.$User);
-     } else {
-        echo('Te equivocastesssssssssssss');
-     }
-     
+$rec=mysqli_fetch_array($query);
+$hash=$rec['Pass'];
 
+     if(password_verify($pass,$hash)){
 
+          echo('Bienbenido '.$Uss );
+
+     }else{
+          echo('todo mal');
+}
 ?>
