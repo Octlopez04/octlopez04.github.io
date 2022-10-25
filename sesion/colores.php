@@ -1,28 +1,14 @@
 <?php
 require_once('bombones.php');
 
-$Uss=$_POST['Uss'];
+    $Uss=$_POST['Uss'];
+    $correo=$_POST['correo'];
 
-$Name=$_POST['Na'];
-$Pass=password_hash($_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
-
-$Pass2=password_hash($_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
-//$Pass2=password_hash( WATAFAK( $Pass2) quien escribio esto????=$_POST['con'],PASSWORD_DEFAULT,['cost'=>15]);
-
+    $Pass=password_hash($Pass=$_POST['conx'],PASSWORD_DEFAULT,['cost'=>15]);
 echo($Pass);
 
-if($Pass == $Pass2){
-    $sql="INSERT INTO prvas (Uss, Pass, Correo, Name1 ) VALUES ('$Uss','$Pass','$ml','$Uss')";
-
+    $sql="INSERT INTO prvas (Uss, Pass, Correo ) VALUES ('$Uss','$Pass','$Uss')";
     $p=mysqli_query($con,$sql);
+
     echo('<p> yes mi perro   <p>');
-
-}else{
-    echo('<p>error en contraseña <p>');
-}
-
-
-
-
-
 ?>
