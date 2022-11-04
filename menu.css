@@ -1,0 +1,27 @@
+/*Para que funcione el panel desplegable se debe colocar la clase "dropdown" en la que aparecerá 
+ y en lo que va oculto va el "dropdown-content" de lo contrario este css no atrancará*/
+
+header{ 
+    position: fixed;}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width:100%;
+    overflow: auto;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    color: violet;
+    background-color: red;
+}
+ul{
+    list-style-type: none;
+}
