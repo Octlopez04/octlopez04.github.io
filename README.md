@@ -1,4 +1,4 @@
-	https://octlopez04.github.io
+	<a href="https://octlopez04.github.io">Pagina web</a>
 <ul>
 <li>-Proyecto integrador para la preparatoria</li>		
 <li>-Carlos no tiene permitido ingresar</li>	
