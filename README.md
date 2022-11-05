@@ -1,9 +1,10 @@
 	https://octlopez04.github.io
-
--Proyecto integrador para la preparatoria		
--Carlos no tiene permitido ingresar	
--Falta conseguir el sistema de bases de datos 	
--Aun faltan todos los datos para terminaar la pagina	
--Las animaciones las vamos a hacer hasta el final	
+<ul>
+<li>-Proyecto integrador para la preparatoria</li>		
+<li>-Carlos no tiene permitido ingresar</li>	
+<li>-Falta conseguir el sistema de bases de datos</li>
+<li>-Aun faltan todos los datos para terminaar la pagina</li>	
+<li>-Las animaciones las vamos a hacer hasta el final</li>	
+</ul>
 
 
