@@ -1,19 +1,25 @@
 <?php
-//pide la conexion
+//pide la conexion para dar de alta a un usuario
 require_once('bombones.php');
 
 //recaba los datos
     $Uss=$_POST['Uss'];
-    $correo=$_POST['correo'];
+    $Correo=$_POST['correo'];
+
 //encripta la contraseña
-    $Pass=password_hash($Pass=$_POST['conx'],PASSWORD_DEFAULT,['cost'=>15]);
+    $Pass=password_hash($_POST['pas'],PASSWORD_DEFAULT,['cost'=>15]);
+//carlos metio mano aqui
+$qa=("SELECT Usuario FROM inicios WHERE Usuario = '$Uss'"); 
+$q = mysqli_query($con,$qa);
 
-
-    $sql="INSERT INTO prvas (Uss, Pass, Correo ) VALUES ('$Uss','$Pass','$Uss')";
+//verificamos si el user exite con un condicional que verifica
+// el numero de respuestas devueltas de la consulta
+if(mysqli_num_rows($q) == 0){
+    $sql="INSERT INTO inicios (Usuario,Jerarquia,Contraseña,Correo) VALUES ('$Uss','Usuario','$Pass','$Correo')";
     $p=mysqli_query($con,$sql);
-
-    header('location: index.html');
-    
-   
+    header('location: InicioS.html');
+    }else{
+        echo 'el user ya esta registrado, ingresa otro';
+        }
 
 ?>
