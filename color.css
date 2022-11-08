@@ -2,7 +2,7 @@
     padding: 0px; 
 }
 body,html{
-height: 180%;
+height: 190%;
 width: 100%;
 font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,7 +13,7 @@ color:antiquewhite;
 
 }
 body{
-    background-image: url(Pprincipal/imagenes/fondo.jpg);
+    background-image: url(imagenes/fondo.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -22,7 +22,7 @@ body{
 }
 
 header{ 
-    height: 5%;
+    height: 14%;
     width: 100%;
     float: left;
 }
@@ -41,8 +41,12 @@ header{
 }
 #usuario{
     height: 100%;
-    width: 20%;
-
+    width: 10%;
+    float: left;
+}
+#menu{
+    height: 100%;
+    width: 10%;
     float: left;
 }
 #logo1{
@@ -59,8 +63,8 @@ header{
     border: 2px solid orange;
 }
 
-#usuario1,#menu1{width: 30%;
-
+#usuario1,#menu1{
+    height: 100%;
 }
 
 
@@ -117,7 +121,7 @@ footer{
 }
 
 #lagos{
-    background-image: url(Pprincipal/imagenes/lagos.png);
+    background-image: url(imagenes/lagos.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -125,7 +129,7 @@ footer{
 }
 
 #tequila{
-    background-image: url(Pprincipal/imagenes/tequila.png);
+    background-image: url(imagenes/tequila.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -133,7 +137,7 @@ footer{
 }
 
 #mazamitla{
-    background-image: url(Pprincipal/imagenes/mazamitla.png);
+    background-image: url(imagenes/mazamitla.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -141,7 +145,7 @@ footer{
 }
 
 #sebastian{
-    background-image: url(Pprincipal/imagenes/sebastian.png);
+    background-image: url(imagenes/sebastian.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -151,7 +155,7 @@ footer{
 
 
 #tapalpa{
-    background-image: url(Pprincipal/imagenes/tapalpa.png);
+    background-image: url(imagenes/tapalpa.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:90%;
@@ -159,7 +163,7 @@ footer{
 }
 
 #allende{
-    background-image: url(Pprincipal/imagenes/allende.png);
+    background-image: url(imagenes/allende.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -167,14 +171,14 @@ footer{
 }
 
 #ajijic{
-    background-image: url(Pprincipal/imagenes/ajijic.png);
+    background-image: url(imagenes/ajijic.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
     background-attachment:scroll;
 }
 #mascota{
-    background-image: url(Pprincipal/imagenes/mascota.png);
+    background-image: url(imagenes/mascota.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
@@ -182,7 +186,7 @@ footer{
 }
 
 #tlaquepaque{
-    background-image: url(Pprincipal/imagenes/tlaquepaque.png);
+    background-image: url(imagenes/tlaquepaque.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:87%;
@@ -190,7 +194,7 @@ footer{
 }
 
 #arandas{
-    background-image: url(Pprincipal/imagenes/arandas.png);
+    background-image: url(imagenes/arandas.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size:80%;
