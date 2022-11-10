@@ -1,0 +1,19 @@
+<nav class="dropdown" id="usuario">
+            <button class="dropbtn"><img src="imagenes/usuario.png" id="usuario1"> </button>
+            <section class="dropdown-content">
+                <ul style="list-style:none;">
+                    <li><a href="sesion/InicioS.html">Inicio de sesion</a></li>
+                    <li><a href="sesion/regis.php">Registrarse</a></li>
+                </ul>
+            </section>
+        </nav>
+        <nav class="dropdown" id="menu">
+            <button class="dropbtn"><img src="imagenes/menu.png" id="menu1"></button>
+            <section class="dropdown-content">
+                <ul>
+                    <li><a href="index.html">Menu principal</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        //son para los menus para que funcionen pegar donde haga falta chiao
