@@ -2,9 +2,10 @@
 
     require_once('cone.php');
 
-
-    $sql="SELECT * FROM mamut";
+    $ide=1
+    $sql="SELECT * FROM Lugares WHERE Id = '$ide'";
     $envio=mysqli_query($con,$sql);
+    $env=mysqli_fetch_array($envio)
     
 
 ?>
@@ -30,7 +31,7 @@
                     <th>Imagen</th>
                 </tr>
                 <?php  /*ciclo que va a hacer que muestre los lugares de 10 en 10 donde m es el maximo que va a recorrer por cada casilla*/?>
-                <?php $i=1; $m=10;  for ($i; $i <= $m; $i++) {?>
+                <?php $i=1; $m=10;  for ($i; $i <= $m=10 ; $i++) {?>
                 <tr>
                     <td><p><?php echo($env['Id']); ?></p></td>
                     <td><p><?php echo($env['Nombre']);?></p></td>
