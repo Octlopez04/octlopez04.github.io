@@ -30,7 +30,7 @@
                     <th>Imagen</th>
                 </tr>
                 <?php  /*ciclo que va a hacer que muestre los lugares de 10 en 10 donde m es el maximo que va a recorrer por cada casilla*/?>
-                <?php  for ($i; $i <= $m; $i++) {?>
+                <?php $i=1; $m=10;  for ($i; $i <= $m; $i++) {?>
                 <tr>
                     <td><p><?php echo($env['Id']); ?></p></td>
                     <td><p><?php echo($env['Nombre']);?></p></td>
@@ -43,6 +43,12 @@
                 </tr>
                     <?php } ?>
             </table>
+                    
+            <section>
+                <button type="submit" value=""><p>1</p></button>
+                <button type="submit" value=""><p>2</p></button>
+                <button type="submit" value=""><p>3</p></button>
+            </section>
         </main>
         <footer><p>Octavio Humberto López Sánchez</p><br>
                     <a href="index.php" >Regeresar al inicio</a>
