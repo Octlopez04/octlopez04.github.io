@@ -1,0 +1,21 @@
+
+sesion_regenerate_id():
+
+$_SESION['loggedin']=true;
+
+$_SESION['name']=$Nombreduser;
+header('location ; login.html');
+//dentro del verify de password
+
+//volcadora
+abrir php
+session_start();
+if(!isset($_SESION['loggedin'])){
+
+    pon el header
+}
+//quitar sesion
+session_unset();
+//destruir sesion
+session_destroy();
+//pon un jider
