@@ -1,5 +1,5 @@
-*{margin: 0px;
-padding: 0px; }
+*{margin: 0;
+padding: 0; }
 
 html,body{
     width: 100%;
@@ -8,7 +8,7 @@ html,body{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 text-align: center;
-color:antiquewhite;
+color:rgb(255, 255, 255);
 }
 
 
@@ -18,9 +18,12 @@ header{
     height: 10%;
     width: 100%;
     float: left;
+
+    background-color: rgb(89, 94, 155);
  
-    
 }
+
+
 #logo{
     height: 100%;
     width: 20%;
@@ -41,8 +44,9 @@ header{
     text-align: right;
 }
 #logo1{
-    width: 30%;
-    background-color: rgb(19, 18, 75);
+    width: 29%;
+  
+    background-color: rgb(70, 72, 88);
     border: 1px solid orange;
 }
 
@@ -57,29 +61,66 @@ main{
     height: 80%;
     width: 100%;
     float: left;
-   
+    background-color: rgb(118, 122, 185);
     
 }
+
+
+ article{height: 50%;
+width: 50%;
+
+float: left;}
+
+img{
+    width: 80%;
+   
+}
+
+
 
 footer{
     
     height: 20%;
     width: 100%;
     float: left;
-    background-color: rgb(19, 18, 75);
-    border: 3px solid orange;
+    background-color: rgb(89, 94, 155);
     font-size: 100%;
+    
 }
 #adv{
     width: 3%;
    
  }
 
-body{
-    background-image: url(imagenes/fondo.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    
+
+
+
+
+
+.offset{box-shadow:.3em .3em 0 0 var(--color),inset .3em .3em 0 0 var(--color)}
+.offset:focus,.offset:hover{box-shadow:0 0 var(--hover),inset 6em 3.5em 0 0 var(--hover)}
+
+.offset{--color:rgb(233, 114, 17);--hover:rgb(233, 114, 17);}
+.offset{background-color: rgba(150, 101, 29, 0.87);}
+button{color:var(--color);transition:.25s}
+button:focus,button:hover{border-color:var(--hover);color:#fff}
+
+button{background:0 0;border:2px solid;font:inherit;line-height:1;margin:.5em;padding:1em 2em}
+button{width: 60%;
+height: 60%;
+float: center;
+}
+
+
+.centrado{
+    text-align: center;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 80%;
+}
+
+h1{
+-webkit-text-stroke: 2px black;
 }
