@@ -1,49 +1,51 @@
 <?php
-require_once('conn.php');
+require_once('cone.php');
 
-$sql="SELECT IDE, IMG, LUGAR FROM lugares";
+
+$sql="SELECT IDE, IMG1, Lugares FROM lugares";
 
 $envio=mysqli_query($con, $sql);
 ?>
-
+ 
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>ind3xcarlos</title>
-    <link rel="stylesheet"   href="color.css">
-     <link rel="stylesheet"   href="menu.css">
+    <link rel="stylesheet"   href="principal.css">
 </head>
 <body>
 <header>
-
-
             <section id="logo"> <p> <img src="imagenes/logop.png" id="logo1" ></p></section>
-            <section id="titulo"> <h1 id="titulo1">* Jalisco Mágico *</h1></section>
-            <nav id="usuario"> <img src="imagenes/usuario.png" id="usuario1"> <img src="imagenes/menu.png" id="menu1"></nav>
-    
+        
+            <nav id="usuario"> <pre> <img src="imagenes/inicio.png" id="usuario1">    <img src="imagenes/usuario.png" id="usuario1">   <img src="imagenes/menu.png" id="menu1">  </pre></nav>
+
         </header>
 <main>
+<article>
     <?php while($recivo=mysqli_fetch_array($envio)){?>
     <form method="POST" action="ProyE.php">
 
-<article  class="sec1">
-<button type="submit" name="nu" value="<?php echo($recivo['IDE']);   ?>"> <img src="<?php   echo($recivo['IMG']); ?>"> </button>
-    </article>
+<button type="submit" name="nu" value="<?php echo($recivo['IDE']);   ?>"  class="offset"> <img src="bas/<?php   echo($recivo['IMG1']); ?>"> </button>
+    
 
 
  <?php }?>
-  
-</form> 
-
+</form>
+ </article>
+ 
 </main>
 
-        <footer>
-
-    <section id="sec2">  <a href="index3.php" id="ras"><button><img src="reg.jpg" id="reg"></button</a>
-    </section> 
-    
+<footer>
+            <section id="fo1"> <img src="imagenes/advertencia.png" id="adv">  <p id="advt"> ¡Esta pagina es solo un proyecto escolar !</p> </section><br>
+            
+                <a href="Pprincipal/proyo.html">Octavio</a>
+                <a href="mviajes.html">mis viajes</a>
+                <a href="Pprincipal/ProyE.html">Emmanuel</a>
+                <a href="prox.html">carlos</a>
+                <a href="sesion/InicioS.html"></a>
+            
         </footer>
         
 
