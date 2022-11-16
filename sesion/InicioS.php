@@ -1,7 +1,7 @@
 <?php
 //inicio de sesion
 session_start();
-     require_once('bombones.php');
+     require_once('cone.php');
 $Uss=$_POST['Uss'];
 $Pass=$_POST['pas'];
 
@@ -16,10 +16,14 @@ $env=mysqli_fetch_array($envio);
 $hash=$env['Contraseña'];
      //Verifica las contrañoñas
      if(!password_verify($Pass,$hash)){
-          echo('no atranca');
+          echo"<script type=\"text/javascript\">alert(Usuario o Contraseña Incorrecto!); 
+        window.location='../InicioS.html';</script>"; 
      }else{
-          echo('Bienvenido: '.$Uss );
-          $_SESSION['loggedin'];
+         
+          echo"<script type=\"text/javascript\">alert(Bienvenido $Uss); 
+        window.location='../idexcarlos.php';</script>"; 
+          $_SESSION['loggedin']=true;
+     
 }
 
 ?>

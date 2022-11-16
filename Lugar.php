@@ -1,9 +1,7 @@
 <?php
-    require_once('bombones.php');
+    require_once('sesion/cone.php');
     
-    $sql="SELECT Ide, Lugar, Descripcion, Fecha, Precio, Fechasal, Cupos, Img, Informacione
-    FROM Lugares
-    WHERE ide = 2";
+    $sql="SELECT * FROM Lugares WHERE ide = 2";
     $envio=mysqli_query($con,$sql);
     $consulta=mysqli_fetch_array($envio);
 ?>
@@ -63,10 +61,10 @@
 
     <footer>
         <section id="fo1"> <img src="advertencia.png" id="adv">  <p id="advt"> ¡Esta pagina es solo un proyecto escolar !</p> </section><br>
-        <a href="proyo.html">Octavio</a>
+        <a href="../index.html">Inicio</a>
         <a href="mviajes.html">mis viajes</a>
-        <a href="ProyE.html">Emmanuel</a>
-        <a href="prox.html">carlos</a>
+        <a href="sesion/registro.html">regis</a>
+        <a href="lugares/lugar.html">lugar</a>
         <a href="sesion/InicioS.html">Log In</a>
     </footer>
 </body>

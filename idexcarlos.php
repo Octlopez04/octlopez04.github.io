@@ -43,11 +43,11 @@ $envio=mysqli_query($con,$sql);
 <footer>
             <section id="fo1"> <img src="imagenes/advertencia.png" id="adv">  <p id="advt"> ¡Esta pagina es solo un proyecto escolar !</p> </section><br>
             
-                <a href="Pprincipal/proyo.html">Octavio</a>
-                <a href="mviajes.html">mis viajes</a>
-                <a href="Pprincipal/ProyE.html">Emmanuel</a>
-                <a href="prox.html">carlos</a>
-                <a href="sesion/InicioS.html"></a>
+            <a href="../index.html">Inicio</a>
+            <a href="mviajes.html">mis viajes</a>
+            <a href="sesion/registro.html">regis</a>
+            <a href="lugares/lugar.html">lugar</a>
+            <a href="sesion/InicioS.html">Log In</a>
             
         </footer>
         

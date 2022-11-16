@@ -1,6 +1,6 @@
 <?php
 //pide la conexion para dar de alta a un usuario
-require_once('bombones.php');
+require_once('cone.php');
 
 //recaba los datos
     $Uss=$_POST['Uss'];
@@ -19,7 +19,10 @@ if(mysqli_num_rows($q) == 0){
     $p=mysqli_query($con,$sql);
     header('location: InicioS.html');
     }else{
-        echo 'el user ya esta registrado, ingresa otro';
+        echo("<script>alert('el user ya esta registrado, ingresa otro');</script>");
+        echo"<script type=\"text/javascript\">alert('el user ya esta registrado, ingresa otro'); 
+        window.location='../sesion/registro.html'';</script>"; 
+    
         }
 
 ?>
