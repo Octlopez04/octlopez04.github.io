@@ -14,6 +14,7 @@ $envio=mysqli_query($con,$sql);
     <meta charset="UTF-8">
     <title>ind3xcarlos</title>
     <link rel="stylesheet"   href="principal.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
 <header>

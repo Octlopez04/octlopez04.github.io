@@ -2,7 +2,7 @@
 padding: 0; }
 
 html,body{
-    width: 100%;
+    width: auto;
     height: 110%;
     font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
