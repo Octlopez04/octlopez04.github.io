@@ -3,116 +3,126 @@
     padding: 0px; 
 }
 
-body,html{
-height: 150%;
-width: 100%;
-font-size: 30px;
+html,body{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
-color:antiquewhite;   
+color:rgb(57, 86, 165);
+background-image: url(fondo5.png);
+background-position:center;
+background-attachment: fixed;
 }
 
-body{
-  
-    background-color: purple;
-}
-
-header{ 
-    height: 5%;
+header{
+    
+    height: 10%;
     width: 100%;
     float: left;
+    background-color: rgba(65, 96, 197, 0.87);
 }
+
+
 
 #logo{
     height: 100%;
-    width: 20%;
-    float: left;
-}
+    width: 40%;
 
-#titulo{
-    height: 100%;
-    width: 60%;
     float: left;
 }
 
 #usuario{
     height: 100%;
-    width: 20%;
+    width: 60%;
+
     float: left;
+    text-align: right;
 }
 
+.hea{
+width: 33%;
+height: 100%;
+float:left;
+}
+
+
+
 #logo1{
-    width: 38%;
-    background-color: rgb(19, 18, 75);
+    width: 20%;
     border: 1px solid orange;
 }
 
-#titulo1{
-    color: rgb(245, 118, 28);
-    font-family: roman;
-    font-size: 90px;
-    background-color:rgb(19, 18, 75) ;
-    border-radius: 50px ;
-    border: 2px solid orange;
+#menu1{width: 8%;
 }
 
-#usuario1,#menu1{
-    width: 30%;
+#usuario1{width: 8%;
+
 }
+
 
 main{
-    height: 125%;
-    width: 100%;   
+    
+    height: 80%;
+    width: 100%;
     float: left;
+    background-color:rgba(231, 157, 45, 0.925);
+    
+   }
+
+
+    article{height: 100%;
+      width: 100%;
+
+   float: left;}
+
+img{
+    width: 80%;
+   
 }
+
 
 
 footer{
-    height: 25%;
+    
+    height: 20%;
     width: 100%;
-    background-color:rgb(19, 18, 75) ;
-    opacity: .8;
-    border: 2px solid orange;
     float: left;
+    background-color: rgba(65, 96, 197, 0.87);
+    font-size: 100%;
+    
 }
-
 #adv{
-   width: 20%;
-}
+    width: 3%;
+   
+ }
 
-p{
-    text-align:center;
-    font-size: larger;
-    color: blanchedalmond;
-}
-.centrado{
-    text-align: center;
-    position: relative;
-    top:50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
+
 
 h1{
-    -webkit-text-stroke: 2px black;
+-webkit-text-stroke: 2px black;
 }
+
+
 
 #Atitle{
     height: 40%;
     width: 100%;
     float: left;
+   
 }
 #Ainformacion{
-    height: 10%;
+    height: 15%;
     width: 100%;
     float: left;
+    text-align:center;
 }
 
 .marcado{
     background-color: rgba(47, 79, 79, 0.616);
 }
 #Ainformacione{
-    height: 10%;
+    height: 15%;
     width: 100%;
     float: left;
 }
@@ -138,3 +148,11 @@ h3{
     height: 100px;
     width: 200px;
 }
+#imagenes{
+    max-height: 80%;
+    width: 80%;
+}
+
+
+
+

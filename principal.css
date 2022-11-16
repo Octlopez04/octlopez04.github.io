@@ -3,7 +3,7 @@ padding: 0; }
 
 html,body{
     width: auto;
-    height: 110%;
+    height: 100%;
     font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -39,14 +39,20 @@ header{
     float: left;
 }
 #usuario{
-    height: 100%;
-    width: 80%;
+    height: auto;
+    width: auto;
 
-    float: left;
+    float: right;
     text-align: right;
+    
+}
+#menu{
+    height: auto;
+    width: auto;
+    float: right;
 }
 #logo1{
-    width: 29%;
+    width: 100%;
   
     background-color: rgb(18, 116, 99);
     border: 1px solid orange;
@@ -60,18 +66,20 @@ header{
 
 main{
     
-    height: 80%;
+    height: auto;
     width: 100%;
     float: left;
-    ba
     
 }
 
 
- article{height: 50%;
-width: 50%;
+article{
+   
+    height: 40%;
+    width: 40%;
+    float: right;
 
-float: left;}
+}
 
 img{
     width: 80%;
@@ -92,7 +100,7 @@ footer{
 #adv{
     width: 3%;
    
- }
+}
 
 
 
