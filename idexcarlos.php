@@ -19,7 +19,9 @@ $envio=mysqli_query($con, $sql);
 <header>
             <section id="logo"> <p> <img src="imagenes/logop.png" id="logo1" ></p></section>
         
-            <nav id="usuario"> <pre> <img src="imagenes/inicio.png" id="usuario1">    <img src="imagenes/usuario.png" id="usuario1">   <img src="imagenes/menu.png" id="menu1">  </pre></nav>
+            <nav id="usuario"> <pre> <img src="imagenes/inicio.png" id="usuario1">  
+            
+            <img src="imagenes/usuario.png" id="usuario1">   <img src="imagenes/menu.png" id="menu1">  </pre></nav>
 
         </header>
 <main>
