@@ -1,10 +1,10 @@
 <?php
-require_once('cone.php');
+require_once('sesion/cone.php');
 
 
-$sql="SELECT IDE, IMG1, Lugares FROM lugares";
+$sql="SELECT IDE,IMG1,Lugar FROM lugares";
 
-$envio=mysqli_query($con, $sql);
+$envio=mysqli_query($con,$sql);
 ?>
  
 
