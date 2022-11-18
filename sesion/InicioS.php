@@ -14,15 +14,18 @@ $envio=mysqli_query($con,$sql);
 //??¿¿
 $env=mysqli_fetch_array($envio);
 $hash=$env['Contraseña'];
-     //Verifica las contrañoñas
+     //Verifica las contrañoñas 
      if(!password_verify($Pass,$hash)){
+
           echo"<script type=\"text/javascript\">alert(Usuario o Contraseña Incorrecto!); 
         window.location='../InicioS.html';</script>"; 
      }else{
          
-          echo"<script type=\"text/javascript\">alert(Bienvenido $Uss); 
-        window.location='../idexcarlos.php';</script>"; 
+          
           $_SESSION['loggedin']=true;
+          $_SESSION['logged_in_user_id'] =$Uss;
+          $_SESSION['logged_in_user_name'] = $Uss;
+          header('location: ../idexcarlos.php');
      
 }
 

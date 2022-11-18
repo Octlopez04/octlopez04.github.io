@@ -1,21 +1,12 @@
 <?php
+session_start();
 //quitar la sesion
-if (!session_unset()) {
-  
-  echo("<script>alert('error al cerrar sesion');</script>");
-  header('location: ../index.html');
-}
+session_unset();
 
 //destruir sesion
-if (!session_destroy()) {
-  
-  echo("<script>alert('error al destruir la sesion');</script>");
-  header('location: ../index.html');
-}
+session_destroy();
+$_SESSION['logged_in_user_id'];
+unset($_SESSION['logged_in_user_id']);
 
-
-  
-  
-  
-  header('location: ../index.html');
+  header('location: ../idexcarlos.php');
 ?>

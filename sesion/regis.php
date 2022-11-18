@@ -19,7 +19,7 @@ if(mysqli_num_rows($q) == 0){
     $p=mysqli_query($con,$sql);
     header('location: InicioS.html');
     }else{
-        echo("<script>alert('el user ya esta registrado, ingresa otro');</script>");
+        echo("<script>alert(el user ya esta registrado, ingresa otro);</script>");
         echo"<script type=\"text/javascript\">alert('el user ya esta registrado, ingresa otro'); 
         window.location='../sesion/registro.html'';</script>"; 
     
