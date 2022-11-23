@@ -11,12 +11,11 @@ color:antiquewhite;
 
 }
 body{
-    background-image: url(/Pprincipal/imagenes/fondo.jpg);
-    background-position:center;
+     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    
+background-color: aqua;
 }
 
 header{ 

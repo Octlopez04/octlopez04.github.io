@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+html,body{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color:rgb(57, 86, 165);
+background-image: url(../fondo5.png);
+background-position:center;
+background-attachment: fixed;
+}
+
+header{
+    
+    height: 10%;
+    width: 100%;
+    float: left;
+    background-color: rgba(65, 96, 197, 0.87);
+}
+
+
+
+#logo{
+    height: 100%;
+    width: 40%;
+   
+    float: left;
+}
+
+#usuario{
+    height: 100%;
+    width: 60%;
+
+    float: left;
+    text-align: right;
+}
+
+.hea{
+width: 33%;
+height: 100%;
+float:left;
+}
+
+
+
+#logo1{
+    width: 20%;
+    border: 1px solid orange;
+}
+
+#menu1{width: 8%;
+}
+
+#usuario1{width: 8%;
+
+}
+
+#usuario2{width: 20%;
+
+}
+
+
+main{
+    
+    height: 80%;
+    width: 100%;
+    float: left;
+    background-color:rgba(231, 157, 45, 0.925);
+    
+   }
+
+#ava{
+    height: 50%;
+    width: 100%;
+
+ float: left;
+
+}
+
+    article{height: 50%;
+      width: 100%;
+
+   float: left;}
+
+img{
+    width: 80%;
+   
+}
+
+
+
+footer{
+    
+    height: 20%;
+    width: 100%;
+    float: left;
+    background-color: rgba(65, 96, 197, 0.87);
+    font-size: 100%;
+    text-align: center;
+    
+}
+#adv{
+    width: 3%;
+   
+ }
+
+
+
+h1{
+-webkit-text-stroke: 2px black;
+}
+#insta{
+    width: 8%; 
+}
+
+p{color:antiquewhite;}
+
+a{text-decoration: none;}

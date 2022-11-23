@@ -1,33 +1,41 @@
 <?php
     require_once('sesion/cone.php');
-    
-    $sql="SELECT * FROM Lugares WHERE ide = 2";
+    $a1=$_POST['nu'];
+    $sql="SELECT IDE, lugar, Descripcion, IMG1, IMG2, IMG3 FROM lugares WHERE IDE = '$a1'";
+
     $envio=mysqli_query($con,$sql);
+
     $consulta=mysqli_fetch_array($envio);
+
+    $qa=("SELECT * FROM Misviajes"); 
+    $q = mysqli_query($con,$qa);
+    $qp=mysqli_fetch_array($q);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Individual.css">
-    <title><?php echo $consulta['Lugar']?> </title>
+
+    <title> <?php echo $consulta['lugar'] ?>  </title>
 </head>
 <body>
-    <header> 
-        <section id="logo"> <p> <img src="logop.png" id="logo1" ></p></section>
-        <section id="titulo"> <h1 id="titulo1">* jalisco mágico *</h1></section>
-        <nav id="usuario"> <img src="usuario.png" id="usuario1"> <img src="menu.png" id="menu1"></nav>
+    <header>
+        <section id="logo"> <p> <img src="imagenes/logo.png" id="logo1" ></p></section>
+    
+        <nav id="usuario"> <pre> <a href="/jalism/idexcarlos.php"><img src="imagenes/inicio.png" id="usuario1"> </a>   <a href="/jalism/sesion/InicioS.html"><img src="imagenes/usuario.png" id="usuario1"></a>   <img src="imagenes/menu.png" id="menu1">  </pre></nav>
+
     </header>
 
     <main>
         <br><br>
         <Article id="Atitle">
-            <h2><?php echo $consulta['Lugar']?> </h2>
-            <img src="<?php echo $consulta['Img'] ?>"><br>
+            <h1><?php echo $consulta['lugar']?></h1>
+            <img src="bas/<?php echo $consulta['IMG1'] ?>" id="imagenes"><br>
         </Article>
 
         <Article id="Ainformacion">
-            <p><?php echo $consulta['Descripcion']?> </p>
+            <p><?php echo $consulta['Descripcion']?></p>
 
         </Article>
 
@@ -35,24 +43,25 @@
 
         <Article id="Ainformacione">
         <h3>ACTIVIDADES QUE PODRAS REALIZAR EN ESTE VIAJE</h3>
-        <p><?php echo $consulta['Informacione']?> </p>
+        <p><?php echo $qp['Descripcionextra']?></p>
         </Article>
 
         <Article id="Acupos">
-            <h3>Este Viaje tiene los siguientes cupos</h3><br>
-            <p class="marcado"><?php echo $consulta['Cupos']?> Disponibles </p>  
-            
-        </Article>
+            <h3>ESTE VIAJE TIENE LA SIGUIENTE CANTIDAD DE CUPOS</h3><br>
+            <p class="marcado"><?php echo $qp['Cupos']?> Disponibles </p>  
 
-        <section id="Afechas">
+        </Article>
+        
+ <section id="Afechas">
             <h3>PROXIMAS FECHAS DE VIAJES A ESTE LUGAR</h3><br>
-            <p class="marcado"><?php echo $consulta['Fecha']?></p><br>
+            <p class="marcado"><?php echo $qp['Fecha']?> </p><br>
         </section>
+        
 
         <Article id="Aprecio">
             <form action="../sesion/InicioS.html" method="POST">
-                <h3>El costo de un boleto para este viaje es de</h3><br>
-                <p class="marcado"><?php echo $consulta['Precio']?> </p>
+                <h3>EL COSTO PARA UN BOLETO DE ESTE VIAJE ES DE</h3><br>
+                <p class="marcado"><?php echo $qp['Precio']?> </p>
                 <br><button id="Compra" tipo="submit"></button>
             </form>
         </Article>
@@ -60,12 +69,17 @@
     </main>
 
     <footer>
-        <section id="fo1"> <img src="advertencia.png" id="adv">  <p id="advt"> ¡Esta pagina es solo un proyecto escolar !</p> </section><br>
-        <a href="../index.html">Inicio</a>
-        <a href="mviajes.html">mis viajes</a>
-        <a href="sesion/registro.html">regis</a>
-        <a href="lugares/lugar.html">lugar</a>
-        <a href="sesion/InicioS.html">Log In</a>
+        <section id="fo1"> <img src="imagenes/advertencia.png" id="adv">  <p id="advt"> ¡Esta pagina es solo un proyecto escolar !</p> <br>
+        
+        <p> Integrantes</p><br>
+            <p>Carlos Barragan Padilla <br>
+                Octavio Lopez Sanchez<br>
+                Diego Sigala Rabelero<br>
+                Emmanuel Villa Sanchez<br>
+                Valeria Badillo Guerrero
+            </p>
+            <a href="https://www.instagram.com/rinconesjaliscienses/"><img src="imagenes/insta.png" id="insta" ></a>
+        </section>
     </footer>
 </body>
 </html>

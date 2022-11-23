@@ -2,15 +2,16 @@
 padding: 0; }
 
 html,body{
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
-text-align: center;
 color:rgb(255, 255, 255);
 
 background-image: url(fondo5.png);
+text-align: center;
+
 background-position:center;
 background-attachment: fixed;
 }
@@ -18,89 +19,88 @@ background-attachment: fixed;
 
 
 header{
-
+    
     height: 10%;
     width: 100%;
     float: left;
-    background-color: rgba(238, 159, 13, 0.87);
+    background-color: rgba(65, 96, 197, 0.87);
 }
 
 
 #logo{
     height: 100%;
-    width: 10%;
+    width: 20%;
 
     float: left;
 }
+#titulo{
+    height: 100%;
+    width: 60%;
+
+    float: left;
+}
+#usuario{
+    height: 100%;
+    width: 80%;
+
+    float: left;
+    text-align: right;
+}
 #logo1{
-    width: 100%;
+    width: 35%;
   
     background-color: rgb(18, 116, 99);
     border: 1px solid orange;
 }
-#usuario{
-    height: 100%;
-    width: 20%;
-
-    float: right;
-    
-    background-color: blue;
-}
-#menu{
-    height: 100%;
-    width: 20%;
-    float: right;
-}
-section{
-    width: 20%;
-    height: 100%;
-    float: right;
-}
 
 
-
-#usuario1,#menu1{width: 30%;
+#usuario1,#menu1{width: 7%;
 
 }
+
+
 
 
 main{
     
-    height: auto;
+    height: 80%;
     width: 100%;
     float: left;
+    background-color:rgba(231, 157, 45, 0.925);
     
-}
+   }
 
 
-article{
-   
-    height: 40%;
-    width: 40%;
-    float: left;
-
-}
+ article{
+    height: 100%;
+ }
 
 img{
     width: 80%;
    
 }
 
-
+a{text-decoration: none;}
 
 footer{
     
     height: 20%;
     width: 100%;
     float: left;
-    background-color: rgba(27, 107, 87, 0.87);
+    background-color: rgba(65, 96, 197, 0.87);
     font-size: 100%;
+    text-align: center;
     
 }
+#insta{
+    width: 10%;
+    
+}
+
 #adv{
     width: 3%;
    
-}
+ }
 
 
 
@@ -133,4 +133,15 @@ float: center;
 
 h1{
 -webkit-text-stroke: 2px black;
+}
+#pa{
+    width:  50%;
+    height: 10%;
+    display:inline;
+
+}
+#art{
+    width:100%;
+    height: auto;
+
 }
