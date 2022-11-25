@@ -1,0 +1,34 @@
+
+sesion_regenerate_id():
+
+$_SESION['loggedin']=true;
+
+//hacer la discriminacion de usuarios
+<?php 
+session_start();
+
+if(!isset($_SESSION["usuario"])){//cambiar lo de usuario por lo de admin para hacer distinciones
+    echo 'Usted no esta logueado';
+    exit;
+}else{
+  echo 'Usted esta logueado';
+}?>
+//falta poner un if en el menu para poner un campo de "li" con el nombre invitado
+y para cerrar sesión
+
+$_SESION['name']=$Nombreduser;
+header('location ; login.html');
+//dentro del verify de password
+
+//volcadora
+abrir php
+session_start();
+if(!isset($_SESION['loggedin'])){
+
+    pon el header
+}
+//quitar sesion
+session_unset();
+//destruir sesion
+session_destroy();
+//pon un jider
